@@ -1,0 +1,1437 @@
+/*Remove all features already there*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*Darkmode and light mode settings*/
+body{
+    background-color: white;
+    color: rgb(10, 10, 83);
+}
+.darkmode {
+    background-color: #0d0d0d;
+    color: yellow;
+}
+
+/*Set size for all images*/
+
+@media screen and (min-width: 1px) and (max-width:450px){
+img {
+    width: 90%;
+    height: 90%;
+    border: 3px solid black;
+    border-radius: 5px;
+}
+}
+
+@media screen and (min-width: 451px){
+img {
+    width: 40%;
+    height: 30%;
+    border: 3px solid black;
+    border-radius: 5px;
+}
+}
+
+/*The about section*/
+.total{
+    display: flex;
+    margin-top: 10px;
+    border-top: 3px solid blue;
+}
+.darkmode .total{
+    border-top: 3px solid yellow;
+}
+.first{
+    flex: 1;
+    margin-top: 200px;
+    margin-left: 150px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: red;
+    letter-spacing: 5px;
+    text-decoration: underline 5px solid blue;  
+}
+.darkmode .first{
+    text-decoration: underline 5px solid yellow;
+    color: rgb(226, 2, 110);
+}
+.second{
+    flex: 1;
+    margin-right: 150px;
+    text-align: center;
+    justify-content: center;
+    margin-top: 80px;
+    margin-bottom: 100px;
+    border: 3px dashed blue;
+    padding: 14px 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.darkmode .second{
+    border: 3px dashed yellow;
+    color: white;
+}
+img {
+    width: 300px;
+    height: 200px;
+    border: 3px solid black;
+    border-radius: 5px;
+}
+.darkmode img{
+    border: 3px solid rgb(145, 203, 44);
+}
+.spec{
+    display: flex;
+}
+.three{
+    margin-left: 550px;
+    display: inline;
+    background-color: blueviolet;
+    color: white;
+    padding: 14px 16px;
+    border-radius: 15px;
+}
+.darkmode .three{
+    background-color: rgb(0, 255, 0);
+    color: black;
+}
+.uiux{
+    flex: 1;
+    margin-left: 150px;
+}
+.interf{
+    flex: 1;
+    margin-right: 150px;
+}
+.thing{
+    display: flex;
+}
+.front{
+    flex: 1;
+    margin-left: 150px;
+}
+.end{
+    flex: 1;
+    margin-right: 150px;
+}
+.calc{
+    display: flex;
+}
+.desi{
+    flex: 1;
+    margin-left: 150px;
+}
+.refer{
+    flex: 1;
+    margin-right: 150px;
+}
+h2{
+    margin-left: 100px;
+    text-decoration: underline dashed 3px blue;
+    color: blue;
+    margin-top: 30px;
+}
+.darkmode h2{
+    text-decoration: underline dashed 3px yellow;
+    color:yellow;
+}
+.about{
+    margin-bottom: 100px;
+}
+/*different sizes*/
+@media screen and (min-width: 810.1px) and (max-width:1069px){
+    #reach{
+        margin-right: 170px;
+    }
+    .first{
+        margin-left: 10px;
+    }
+    .second{
+        margin-right: 10px;
+    }
+    .three{
+        margin-left: 300px;
+    }
+    h2{
+        margin-left: 50px;
+    }
+    .uiux{
+        margin-left: 30px;
+    }
+    .interf{
+        margin-right: 30px;
+    }
+    .front{
+        margin-left: 30px;
+    }
+    .end{
+        margin-right: 30px;
+    }
+    .desi{
+        margin-left: 30px;
+    }.refer{
+        margin-right: 30px;
+    }
+    .three{
+        margin-left: 45%;
+    }
+}
+
+@media screen and (min-width: 700px) and (max-width: 800px){
+ .first{
+    margin-left: 4%;
+ }   
+ .second{
+    margin-right: 4%;
+ }
+ .spec{
+    display: block;
+    margin-top: 5px;
+    margin-bottom: 30px;
+ }
+ .uiux{
+    margin-left: 50px;
+ }
+ .interf{
+    margin-right: 0px;
+    margin-left: 70px;
+ }
+ .thing{
+    display: block;
+    margin-top: 5px;
+    margin-bottom: 30px;
+ }
+ .front{
+    margin-left: 50px;
+ }
+ .end{
+    margin-right: 0px;
+    margin-left: 70px;
+ }
+ .calc{display: block;
+    margin-top: 5px;
+    margin-bottom: 30px;
+}
+.desi{
+    margin-left: 50px;
+}
+.refer{
+    margin-right: 0px;
+    margin-left: 70px;
+}
+.three{
+    margin-left: 45%;
+}
+
+}
+
+@media screen and (min-width: 801px) and (max-width:809.99px){
+ .first{
+    margin-left: 50px;
+ }   
+ .second{
+    margin-right: 50px;
+ }
+ .spec{
+    display: block;
+ }
+ .uiux{
+    margin-left: 50px;
+ }
+ .interf{
+    margin-right: 0px;
+    margin-left: 70px;
+ }
+ .thing{
+    display: block;
+ }
+ .front{
+    margin-left: 50px;
+ }
+ .end{
+    margin-right: 0px;
+    margin-left: 70px;
+ }
+ .calc{display: block;
+}
+.desi{
+    margin-left: 50px;
+}
+.refer{
+    margin-right: 0px;
+    margin-left: 70px;
+}
+.three{
+    margin-left: 40%;
+}
+}
+
+@media screen and (min-width: 450.99px) and (max-width:699.99px){
+ .total{
+    display: block;
+ }
+ .spec{
+    display: block;
+ }
+ .thing{
+    display: block;
+ }
+ .calc{
+    display: block;
+ }
+ .first{
+    margin-top: 20px;
+    margin-left: 25%;
+ }
+ .second{
+    margin-left: 15%;
+    width: 70%;
+ }
+ .three{
+    margin-left: 35%;
+ }
+ h2{
+    margin-left: 20px;
+ }
+ .uiux{
+    margin-left: 50px;
+ }
+ .interf{
+    margin-left: 35px;
+ }
+ .front{
+    margin-left: 50px;
+ }
+ .end{
+    margin-left: 35px;
+ }
+ .desi{
+    margin-left: 50px;
+ }
+ .refer{
+    margin-left: 35px;
+ }
+}
+@media screen and (min-width: 300px) and (max-width:450px){
+    .total{
+        display: block;
+     }
+     .second{
+        margin-left: 30px;
+        width: 75%;
+     }
+     .first{
+        margin-top: 20px;
+        margin-left: 15%;
+     }
+     .spec{
+        display: block;
+     }
+     .thing{
+        display: block;
+     }
+     .calc{
+        display: block;
+     }  
+     h2{
+        margin-left: 20px;
+        margin-bottom: 20px;
+     }
+     .three{
+        margin-left: 25%;
+     }
+     .uiux{
+        margin-left: 30px;
+     }
+     .interf{
+        margin-left: 45px;
+        width: 70%;
+     }
+     .front{
+        margin-left: 30px;
+     }
+     .end{
+        margin-left: 45px;
+        width: 70%;
+     }
+     .desi{
+        margin-left: 30px;
+     }
+     .refer{
+        margin-left: 45px;
+        width: 70%;
+     }
+}
+@media screen and (min-width:150px) and (max-width:299.99px){
+    .total{
+        display: block;
+     }
+     .second{
+        margin-left: 5px;
+        width: 70%;
+     }
+     .first{
+        margin-top: 20px;
+        margin-left: 19%;
+        letter-spacing: 0;
+     }
+     .spec{
+        display: block;
+     }
+     .thing{
+        display: block;
+     }
+     .calc{
+        display: block;
+     }  
+     h2{
+        margin-left: 20px;
+        margin-bottom: 20px;
+     }
+     .three{
+        margin-left: 10%;
+     }
+     img{
+        max-width: 90%;
+        height: 100%;
+     }
+     .uiux{
+        margin-left: 30px;
+     }
+     .interf{
+        margin-left: 45px;
+        width: 70%;
+     }
+     .front{
+        margin-left: 30px;
+     }
+     .end{
+        margin-left: 45px;
+        width: 70%;
+     }
+     .desi{
+        margin-left: 30px;
+     }
+     .refer{
+        margin-left: 45px;
+        width: 70%;
+     }
+}
+
+@media screen and (min-width:1px) and (max-width:149.99px){
+    .total{
+        display: block;
+     }
+     .second{
+        margin-left: 5%;
+        width: 67%;
+     }
+     .first{
+        margin-top: 20px;
+        margin-left: 15%;
+        letter-spacing: 0;
+     }
+     .spec{
+        display: block;
+     }
+     .thing{
+        display: block;
+     }
+     .calc{
+        display: block;
+     }  
+     h2{
+        margin-left: 20px;
+        margin-bottom: 20px;
+     }
+     .three{
+        margin-left: 10%;
+        padding:3px 5px;
+     }
+     img{
+        width: 90%;
+        height: 100%;
+     }
+     .uiux{
+        margin-left: 10px;
+     }
+     .interf{
+        margin-left: 5px;
+        width: 65%;
+     }
+     .front{
+        margin-left: 10px;
+     }
+     .end{
+        margin-left: 5px;
+        width: 70%;
+     }
+     .desi{
+        margin-left: 10px;
+     }
+     .refer{
+        margin-left: 5px;
+        width: 70%;
+     }
+}
+
+/*Next is the works section*/
+
+.king{
+    text-align: center;
+    padding: 14px 16px;
+    background-color: blueviolet;
+    display: inline;
+    color: white;
+    margin-left: 550px;
+    border-radius: 15px;
+}
+.darkmode .king{
+    background-color: rgb(0, 255, 0);
+    color: black;
+}
+.out{
+    text-decoration: underline 3px;
+    text-align: center;
+    margin-top: 50px;
+}
+.book{
+    margin-left: 50px;
+}
+.paper{
+    margin-left: 350px;
+}
+.met{
+    margin-left: 650px;
+}
+.book{
+    margin-top: 60px;
+    border-bottom: 3px solid blue;
+}
+.darkmode .book{
+    border-bottom: 3px solid rgb(0, 255, 0);
+}
+.paper{
+    margin-top: 60px;
+    border-bottom: 3px solid blue;
+}
+.darkmode .paper{
+    border-bottom: 3px solid rgb(0, 255, 0);
+}
+.met{
+    margin-top: 60px;
+    border-bottom: 3px solid blue;
+}
+.darkmode .met{
+    border-bottom: 3px solid rgb(0, 255, 0);
+}
+
+@media screen and (min-width: 810px) and (max-width:1068px){
+    .king{
+        margin-left: 45%;
+    }
+    .out{
+        margin-left: 15px;
+    }
+    .paper{
+       margin-left: 250px;
+    }
+    .met{
+       margin-left: 350px;
+    }
+}
+
+@media screen and (min-width: 480.99px) and (max-width:809.99px){
+    .king{
+        margin-left: 40%;
+    }
+    .out{
+        margin-left: 15px;
+    }
+    .book{
+        margin-left: 15%;
+    }
+    .paper{
+       margin-left: 35%;
+    }
+    .met{
+       margin-left: 55%;
+    }
+
+}
+
+@media screen and (min-width: 480.99px) and (max-width:699.2px){
+    .book{
+        margin-left: 12%;
+    }
+    .paper{
+        margin-left: 22%;
+     }
+     .met{
+        margin-left: 30%;
+     } 
+}
+@media screen and (min-width: 0.99px) and (max-width: 480px){
+    .king{
+        margin-left: 25%;
+    }
+    .book{
+        margin-left: 12%;
+    }
+    .paper{
+        margin-left: 12%;
+     }
+     .met{
+        margin-left: 12%;
+     } 
+}
+
+/*Now the footer*/
+footer{
+    margin-top: 100px;
+    background-color: #0d0d0d;
+    color: wheat;
+    display: flex;
+    height: 240px;
+    padding-top: 50px;
+}
+.type{
+    flex: 1;
+    margin-left: 100px;
+}
+.type1{
+    flex: 1;
+}
+.type2{
+    flex: 1;
+}
+footer p a{
+    color: wheat;
+    text-decoration: none;
+}
+footer p a:hover{
+    color: yellow;
+    text-decoration: underline;
+}
+.darkmode footer{
+    border-top: 1px solid white;
+    color: yellow;
+}
+.darkmode footer p a {
+    color: yellow;
+}
+.darkmode footer p a:hover{
+    color: wheat;
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 1069px){
+    .type{
+        margin-left: 70px;
+    }
+    .type1{
+        margin-right: 80px;
+    }
+}
+
+@media screen and (min-width: 550px) and (max-width: 680px){
+    .type{
+        margin-left: 30px;
+    }
+    .type1{
+        margin-right: 50px;
+    }
+}
+@media screen and (max-width: 549.99px){
+  footer{
+    display: block;
+  }
+  .type{
+    margin-left: 20%;
+  }
+  .type1{
+    margin-left: 30%;
+    margin-right: 0;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  .type2{
+    margin-left: 40%;
+  }
+}
+
+@media screen and (max-width: 350px){
+    footer{
+      display: block;
+    }
+    .type{
+      margin-left: 10%;
+    }
+    .type1{
+      margin-left: 10%;
+      margin-right: 0;
+      margin-top: 30px;
+      margin-bottom: 30px;
+    }
+    .type2{
+      margin-left: 10%; 
+    }
+  }
+
+  @media screen and (max-width: 271px){
+    footer{
+        height: 270px;
+    }
+    .type1{
+        max-width: min-content;
+    }
+  }
+  
+  /*I know you are asking but don't worry I didn't 
+  forget the home page*/
+
+  .home{
+    background-image: url('Frame\ 4.jpg');
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 95vh;
+}
+
+@media screen and (max-width: 546px){
+   .home{
+    background-image: url('Frame\ 8.jpg');
+   } 
+ 
+}
+@media screen and (min-width:545.99px) and (max-width: 790px){
+    .home{
+    background-image: url('Frame\ 4.jpg');
+    } 
+ }
+ @media screen and (min-width:789.99px) and (max-width: 810px){
+    .home{
+     background-image: url('Frame\ 4.jpg');
+    } 
+ }
+ @media screen and (max-width: 703px){
+    .home{
+     background-image: url('Frame\ 10.jpg');
+    } 
+ }
+
+@media screen and (max-width: 500px){
+    .home{
+    background-image: url('Frame\ 10.jpg');
+    }
+}
+
+.darkmode .home{
+    background-image: url('Frame\ 5.jpg');
+}
+@media screen and (max-width: 500px){
+    .darkmode .home{
+        background-image: url('Frame\ 7.jpg');
+    }
+}
+@media screen and (max-width: 546px){
+    .darkmode .home{
+        background-image: url('Frame\ 9.jpg');
+    }
+}
+@media screen and (min-width:545.99px) and (max-width: 790px){
+    .darkmode .home{
+    background-image: url('Frame\ 5.jpg');
+    } 
+ }
+ @media screen and (min-width:789.99px) and (max-width: 810px){
+    .darkmode .home{
+     background-image: url('Frame\ 5.jpg');
+    } 
+ }
+ @media screen and (max-width: 703px){
+    .darkmode .home{
+     background-image: url('Frame\ 11.jpg');
+    } 
+ }
+
+@media screen and (max-width: 380px){
+    .darkmode .home{
+        background-image: url('Frame\ 9.jpg');
+    }
+}
+@media screen and (max-width: 480px){
+    .darkmode .home{
+        background-image: url('Frame\ 9.jpg');
+    }
+}
+nav{
+    list-style-type: none;
+    overflow: hidden;
+    width: 100%;
+    position: fixed;
+    margin: 0;
+    padding: 0;
+    top: 0;
+    background-color: white;
+    border-bottom: 2px solid blue;
+}
+.darkmode nav{
+    background-color: #0d0d0d;
+    border-bottom: yellow solid 2px;
+}
+li{
+    display: inline;
+    float: left; 
+    }
+li a {
+   display: block; 
+   text-align: center;
+   padding: 14px 30px;
+   text-decoration: none;
+   color: blue;
+   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   letter-spacing: 3px;
+
+}
+li a:hover{
+    background-color: blueviolet;
+    color: white;
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: normal;
+    text-decoration: underline;
+    font-weight: bolder;
+}
+article{
+    padding-top: 30px;
+}
+ul{
+    margin-left: 300px;
+}
+#chat{
+    margin-top: 16px;
+    margin-left: 25px;
+    border: none;
+    background-color: white;
+    color: blue;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 3px;
+}
+#chat:hover{
+    padding: 14px 30px;
+    background-color: blueviolet;
+    color: white;
+    border-radius: 10px;
+    margin-top: 0;
+    margin-left: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: normal;
+    text-decoration: underline;
+    font-weight: bolder;
+}
+
+.darkmode li a{
+    color: yellow;
+}
+.darkmode li a{
+    color: yellow;
+}
+.darkmode li a:hover{
+    color: black;
+    background-color: rgb(0, 255, 0);
+}
+.darkmode #chat{
+    color: yellow;
+    background-color: #0d0d0d;
+    border: none;
+}
+.darkmode #chat:hover{
+    color: black;
+    background-color: rgb(0, 255, 0);
+    border-radius: 10px;
+}
+.sss{
+  display: none;
+}
+
+#reach{
+    text-align: center;
+    margin-right: 420px;
+    justify-content: center;
+    padding-top: 200px;
+}
+#hire{
+    padding: 14px 16px;
+    background-color: blue;
+    border-radius: 10px;
+    border: none;
+}
+#hire:hover{
+    background-color: black;
+    font-weight: bold;
+}
+#hire a{
+    text-decoration: none;
+    color: white;
+}
+.darkmode #hire{
+    background-color: yellow;
+}
+.darkmode #hire a{
+    color: black;
+}
+.darkmode #hire:hover{
+    background-color: white;
+    font-weight: bold;
+}
+#info{
+    margin-left: 30px;
+    margin-right: 30px;
+    padding: 14px 16px;
+    border-radius: 10px;
+    background-color: blue;
+    border: none;
+}
+#info:hover{
+    background-color: black;
+    font-weight: bold;
+}
+#info a{
+    text-decoration: none;
+    color: white;
+}
+.darkmode #info{
+    background-color: yellow;
+}
+.darkmode #info a{
+    color: black;
+}
+.darkmode #info:hover{
+    background-color: white;
+    font-weight: bold;
+}
+#down{
+    padding: 14px 16px;
+    background-color: blue;
+    border: none;
+    border-radius: 10px;
+}
+#down:hover{
+    background-color: black;
+    font-weight: bold;
+}
+#down a{
+    text-decoration: none;
+    color: white;
+}
+.darkmode #down{
+    background-color: yellow;
+}
+.darkmode #down a{
+    color: black;
+}
+.darkmode #down:hover{
+    background-color: white;
+    font-weight: bold;
+}
+@media screen and (max-width: 1069.99px){
+  ul{
+    margin-left: 170px;
+  }
+}
+
+@media screen and (max-width: 893.99px){
+  ul{
+    margin-left: 13%;
+  }
+}
+
+@media screen and (max-width: 780.99px){
+    ul{
+      margin-left: 7%;
+    }
+  }
+
+  @media screen and (max-width: 750px){
+  /*for the menu stuff*/ 
+  }
+
+  @media screen and (max-width: 945px){
+  #reach{
+    margin-right: 300px;
+  }
+    } 
+
+@media screen and (max-width: 810px){
+ #reach{
+   margin-right: 230px;
+}
+ } 
+
+ @media screen and (max-width: 730px){
+ #reach{
+  margin-right: 150px;
+   }
+} 
+
+@media screen and (max-width: 703px){
+    #reach{
+      margin-right: 253px;
+      margin-left: 10px;
+    }
+    #demor{
+        margin-top: 70px;
+    }
+  }
+
+@media screen and (max-width: 626px){
+    #reach{
+      margin-left: 10px;
+      margin-right: 150px;
+    }
+  }
+
+@media screen and (max-width: 523px){
+    #reach{
+      margin-left: 10px;
+      margin-right: 100px;
+    }
+  }
+
+@media screen and (max-width: 474px){
+    #reach{
+      margin-left: 10px;
+      margin-right: 50px;
+    }
+  }
+
+  @media screen and (max-width: 423px){
+    #reach{
+      margin-left: 10px;
+      margin-right: 0px;
+    }
+  }
+
+  @media screen and (max-width: 373px){
+    #reach{
+      margin-left: 0;
+      margin-right: 0;
+    }
+  }
+
+  @media screen and (max-width: 363px){
+    #info{
+      margin-left: 10px;
+      margin-right: 10px;
+    }
+  }
+    
+
+@media screen and (max-width: 323px){
+    #info{
+      margin-left: 5px;
+      margin-right: 5px;
+    }
+  }
+    
+@media screen and (max-width: 313px){
+    #info{
+      margin-left: 1px;
+      margin-right: 1px;
+    }
+  }
+
+@media screen and (max-width: 305px){
+    #info{
+      margin-left: 0;
+      margin-right: 0;
+    }
+}
+
+@media screen and (max-width: 303px){
+ #hire{
+  padding: 10px 12px; 
+ }
+ #info{
+  padding: 10px 12px;
+ }
+ #down{
+ padding: 10px 12px;
+ }
+}
+
+@media screen and (max-width: 278.99px){
+    #hire{
+     padding: 10px 10px; 
+    }
+    #info{
+     padding: 10px 10px;
+    }
+    #down{
+    padding: 10px 10px;
+    }
+   }
+
+@media screen and (max-width: 266.99px){
+    #hire{
+     padding: 10px 8px; 
+    }
+    #info{
+     padding: 10px 8px;
+    }
+    #down{
+    padding: 10px 8px;
+    }
+   }
+
+@media screen and (max-width: 278.99px){
+    #hire{
+     padding: 10px 6px; 
+    }
+    #info{
+     padding: 10px 6px;
+    }
+    #down{
+    padding: 10px 6px;
+    }
+   }
+
+@media screen and (max-width: 243px){
+    #hire{
+     padding: 10px 3px; 
+    }
+    #info{
+     padding: 10px 3px;
+    }
+    #down{
+    padding: 10px 3px;
+    }
+   }
+  
+@media screen and (max-width: 225px){
+    #hire{
+     padding: 10px 1px; 
+    }
+    #info{
+     padding: 10px 1px;
+    }
+    #down{
+    padding: 10px 1px;
+    }
+   }
+
+@media screen and (max-width: 212.99px){
+    #hire{
+     padding: 10px 10px;
+     margin-top: 30px; 
+    }
+    #info{
+     padding: 10px 10px;
+     margin-top: 30px;
+     margin-left: 10px;
+    }
+    #down{
+    margin-top: 20px;
+    padding: 10px 10px;
+    }
+   }
+
+/*Menu for lower screen size*/
+
+@media screen and (max-width: 699.99px){
+    .sss{
+        display: block;
+        display: flex;
+        position: fixed;
+        top: 1px;
+        width: 100%;
+        background-color: white;
+        border-bottom: 2px solid blue;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+    nav{
+        overflow: hidden;
+        width: 90%;
+        margin: 0;
+        padding: 0;
+        margin-top: 6%;
+        background-color: black;
+        justify-content: center;
+        margin-left: 30px;
+    }
+
+    .openbtn{
+        flex: 1;
+        margin-left: 30px;
+        background-color: black;
+        border: none;
+        padding: 5px 15px;
+        border-radius: 5px;
+        color: white;
+    }
+    #chat1{
+        flex: 1;
+        margin-right: 30px;
+        margin-left: 250px;
+        border-radius: 5px;
+        background-color: black;
+        color: white;
+        padding: 5px 5px;
+    }
+
+    nav ul{
+        display: none;
+    }
+    nav a{
+        color: blue;
+        text-decoration: none;
+        font-size: 17px;
+        display: block;
+        padding: 0;
+    }
+    #chat{
+        display: none;
+    }
+    .darkmode .openbtn{
+        background-color: white;
+        color: black;
+    }
+
+    .openbtn:hover{
+        background-color: white;
+        color: black;
+        border: 2px solid black;
+    }
+    .darkmode .openbtn:hover{
+        background-color: rgb(0, 255, 0);
+        color: black;
+    }
+    
+     .darkmode #chat1{
+        background-color: white;
+        color: black;
+     }
+     #chat1:hover{
+         background-color: white;
+         color: black;
+         border-radius: 5px;
+
+     }
+     .darkmode #chat1:hover{
+         background-color: rgb(0, 255, 0);
+         color: black;
+     }
+    
+     .darkmode nav{
+         background-color: white;
+     }
+     li{
+         display: block;
+         float: left; 
+         }
+     li a {
+        display: block; 
+        padding: 14px 50px;
+        text-decoration: none;
+        color: white;
+
+    }
+    .darkmode li a{
+        color: black;
+    } 
+
+    #div1{
+        margin-top: 5%;
+    }
+    #div2{
+        margin-top: 25%;
+        margin-left: -27%;
+    }
+    #div3{
+        margin-top: 45%;
+        margin-left: -27%;
+    }
+    #div4{
+        margin-top: 65%;
+        margin-left: -28%;
+    }
+}
+@media screen and (max-width: 449.99px){
+    #div4{
+        margin-left: 43%;
+        margin-top: 10%;
+    }
+    #div1{
+        margin-top: 10%;
+    }
+}
+
+@media screen and (max-width: 430px){
+    .openbtn{
+        margin-left: 40px;
+    }
+    #chat1{
+        margin-right: 40px;
+        margin-left: 150px;
+    }
+}
+
+@media screen and (max-width: 425.99px){
+    #div2{
+        margin-left: -45%;
+        margin-top: 30%;
+    }
+    #div3{
+        margin-left: -46%;
+        margin-top: 50%;
+    }
+    #div4{
+        margin-left: -47%;
+        margin-top: 70%;
+    }
+}
+
+@media screen and (max-width: 347.99px){
+    #div4{
+        margin-left: 29%;
+        margin-top: 5%;
+    }
+}
+
+@media screen and (max-width: 342.99px){
+    #div2{
+        margin-left: -56%;
+        margin-top: 33%;
+    }
+    #div3{
+        margin-left: -59%;
+        margin-top: 57%;
+    }
+    #div4{
+        margin-left: -60%;
+        margin-top: 80%;
+    }
+}
+@media screen and (max-width: 301.99px){
+    #div2{
+        margin-left: -62%;
+    }
+    #div3{
+        margin-left: -63%;
+    }
+    #div4{
+        margin-left: -65%;
+    }
+}
+
+@media screen and (max-width: 287.99px){
+    #div4{
+        margin-left: 14%;
+        margin-top: 5%;
+    }
+}
+
+@media screen and (max-width: 285.99px){
+    #div2{
+        margin-left: -69%;
+        margin-top: 37%;
+    }
+    #div1{
+        margin-top: 16%;
+    }
+    #div3{
+        margin-left: -70%;
+    }
+    #div4{
+        margin-left: -73%;
+        margin-top: 76%;
+    }
+}
+@media screen and (max-width: 267.99px){
+    #div4{
+        margin-left: 7%;
+        margin-top: 0;
+    }
+}
+
+@media screen and (min-width: 211px) and (max-width:267px){
+    #div1{
+        margin-top: 20%;
+        margin-left: -20%;
+        margin-right: 70%;
+        justify-content: center;
+    }
+    #div2{
+        margin-left: -20%;
+        margin-right: 70%;
+        justify-content: center;
+        margin-top: 5%;
+    }
+    #div3{
+        margin-left: -20%;
+        margin-top: 5%;
+        margin-right: 70%;
+        justify-content: center;
+    }
+    #div4{
+        margin-left: -20%;
+        margin-right: 70%;
+        justify-content: center;
+        margin-top: 5%;
+    }
+}
+
+@media screen and (max-width: 210px){
+    #div1{
+        margin-top: 50%;
+        margin-left: -20%;
+        margin-right: 70%;
+        justify-content: center;
+    }
+    #div2{
+        margin-left: -20%;
+        margin-right: 70%;
+        justify-content: center;
+        margin-top: 5%;
+    }
+    #div3{
+        margin-left: -20%;
+        margin-top: 5%;
+        margin-right: 70%;
+        justify-content: center;
+    }
+    #div4{
+        margin-left: -20%;
+        margin-right: 70%;
+        justify-content: center;
+        margin-top: 5%;
+    }
+    li a{
+        padding-top: 10px;
+        padding-bottom: 10px; 
+    }
+    li a:hover{
+        border-radius: 0;
+    }
+}
+
+@media screen and (max-width: 341px){
+    #chat1{
+        margin-left: 50px;
+    }
+}
+@media screen and (max-width: 246.99px){
+    #chat1{
+        margin-left: 20px;
+    }
+}
+@media screen and (max-width: 200.99px){
+    .openbtn{
+        margin-left: 10px;
+    }
+    #chat1{
+        margin-left: 10px;
+    }
+}
