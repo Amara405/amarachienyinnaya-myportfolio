@@ -43,6 +43,7 @@ function openNav(){
     }
     else{
         x.style.display = "block";
+        setTimeout(openNav, 3000)
     }
   
 }

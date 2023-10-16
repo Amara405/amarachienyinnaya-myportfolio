@@ -14,15 +14,15 @@
  <nav id="myNav">
 
     <ul id="myLinks">
-        <li id="div1"><a href="index.html#reach">Home</a></li>
-        <li id="div2"><a href="index.html#about">About</a></li>
-        <li id="div3"><a href="index.html#works">Works</a></li>
-        <span ><li class="chat" id="div4"><a href="http://wa.link/6vn1kf">Let's chat</a></li></span>
+        <li id="div1" onclick="clearTimeout(openNav)"><a href="index.html#reach">Home</a></li>
+        <li id="div2" onclick="clearTimeout(openNav)"><a href="index.html#about">About</a></li>
+        <li id="div3" onclick="clearTimeout(openNav)"><a href="index.html#works">Works</a></li>
+        <span><li class="chat" id="div4" onclick="clearTimeout(openNav)"><a href="http://wa.link/6vn1kf">Let's chat</a></li></span>
         <button onclick="myFunction()" class="chat" id="chat">Switch Theme</button>
     </ul>
       </nav>
   <div class="sss"> 
-      <button class="openbtn" href="javascript:void(0)" onclick="openNav()">Menu</button>
+      <button class="openbtn" onclick="openNav()">Menu</button>
       <button onclick="myFunction()" class="chat" id="chat1">Switch Theme</button>
 </div>   
 
