@@ -1,1 +1,784 @@
 
+.home{
+    background-image: url('Frame\ 4.jpg');
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 95vh;
+}
+
+@media screen and (max-width: 546px){
+   .home{
+    background-image: url('Frame\ 8.jpg');
+   } 
+ 
+}
+@media screen and (max-width: 790px){
+    .home{
+    background-image: url('Frame\ 10.jpg');
+    } 
+ }
+ @media screen and (max-width: 810px){
+    .home{
+     background-image: url('Frame\ 10.jpg');
+    } 
+ }
+
+@media screen and (max-width: 500px){
+    .home{
+    background-image: url('Frame\ 8.jpg');
+    }
+}
+body{
+    background-color: white;
+    color: rgb(10, 10, 83);
+}
+.darkmode {
+    background-color: #0d0d0d;
+    color: yellow;
+}
+.darkmode .home{
+    background-image: url('Frame\ 5.jpg');
+}
+@media screen and (max-width: 500px){
+    .darkmode .home{
+        background-image: url('Frame\ 7.jpg');
+    }
+}
+@media screen and (max-width: 546px){
+    .darkmode .home{
+        background-image: url('Frame\ 9.jpg');
+    }
+}
+@media screen and (max-width: 810px){
+    .darkmode .home{
+        background-image: url('Frame\ 11.jpg');
+    }
+}
+@media screen and (max-width: 790px){
+    .darkmode .home{
+        background-image: url('Frame\ 11.jpg');
+    }
+}
+@media screen and (max-width: 380px){
+    .darkmode .home{
+        background-image: url('Frame\ 9.jpg');
+    }
+}
+@media screen and (max-width: 480px){
+    .darkmode .home{
+        background-image: url('Frame\ 9.jpg');
+    }
+}
+nav{
+    list-style-type: none;
+    overflow: hidden;
+    width: 55%;
+    position: fixed;
+    margin: 0;
+    padding: 0;
+    top: 0;
+    margin-left: 150px;
+    margin-top: -10px;
+    background-color: white;
+    border-radius: 15px;
+    
+}
+.darkmode nav{
+    background-color: #0d0d0d;
+}
+li{
+    display: inline;
+    float: left; 
+    }
+li a {
+   display: block; 
+   text-align: center;
+   padding: 14px 30px;
+   text-decoration: none;
+   color: blue;
+   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   letter-spacing: 3px;
+
+}
+li a:hover{
+    background-color: blueviolet;
+    color: white;
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: normal;
+}
+article{
+    padding-top: 30px;
+}
+#chat{
+    margin-top: 16px;
+    margin-left: 25px;
+    border: none;
+    background-color: white;
+    color: blue;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 3px;
+}
+#chat:hover{
+    padding: 14px 30px;
+    background-color: blueviolet;
+    color: white;
+    border-radius: 10px;
+    margin-top: 0;
+    margin-left: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: normal;
+}
+
+.darkmode li a{
+    color: yellow;
+}
+.darkmode li a:hover{
+    color: black;
+    background-color: rgb(0, 255, 0);
+}
+.darkmode #chat{
+    color: yellow;
+    background-color: #0d0d0d;
+    border: none;
+}
+.darkmode #chat:hover{
+    color: black;
+    background-color: rgb(0, 255, 0);
+    border-radius: 10px;
+}
+#reach{
+    text-align: center;
+    margin-right: 420px;
+    justify-content: center;
+    padding-top: 200px;
+}
+#hire{
+    padding: 14px 16px;
+    background-color: blue;
+    border-radius: 10px;
+    border: none;
+}
+#hire:hover{
+    background-color: black;
+    font-weight: bold;
+}
+#hire a{
+    text-decoration: none;
+    color: white;
+}
+.darkmode #hire{
+    background-color: yellow;
+}
+.darkmode #hire a{
+    color: black;
+}
+.darkmode #hire:hover{
+    background-color: white;
+    font-weight: bold;
+}
+#info{
+    margin-left: 30px;
+    margin-right: 30px;
+    padding: 14px 16px;
+    border-radius: 10px;
+    background-color: blue;
+    border: none;
+}
+#info:hover{
+    background-color: black;
+    font-weight: bold;
+}
+#info a{
+    text-decoration: none;
+    color: white;
+}
+.darkmode #info{
+    background-color: yellow;
+}
+.darkmode #info a{
+    color: black;
+}
+.darkmode #info:hover{
+    background-color: white;
+    font-weight: bold;
+}
+#down{
+    padding: 14px 16px;
+    background-color: blue;
+    border: none;
+    border-radius: 10px;
+}
+#down:hover{
+    background-color: black;
+    font-weight: bold;
+}
+#down a{
+    text-decoration: none;
+    color: white;
+}
+.darkmode #down{
+    background-color: yellow;
+}
+.darkmode #down a{
+    color: black;
+}
+.darkmode #down:hover{
+    background-color: white;
+    font-weight: bold;
+}
+#myimg{
+    width: 188px;
+    height: 259px;
+    border: 5px solid blue;
+    border-radius: 10px;
+}
+#myimg:hover{
+    opacity: 0.7;
+}
+.darkmode #myimg{
+    border: 5px solid yellow;
+}
+.total{
+    display: flex;
+    margin-top: 10px;
+    border-top: 3px solid blue;
+}
+.darkmode .total{
+    border-top: 3px solid yellow;
+}
+.first{
+    flex: 1;
+    margin-top: 200px;
+    margin-left: 150px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: red;
+    letter-spacing: 5px;
+    text-decoration: underline 5px solid blue;  
+}
+.darkmode .first{
+    text-decoration: underline 5px solid yellow;
+    color: rgb(226, 2, 110);
+}
+.second{
+    flex: 1;
+    margin-right: 150px;
+    text-align: center;
+    justify-content: center;
+    margin-top: 80px;
+    margin-bottom: 100px;
+    border: 3px dashed blue;
+    padding: 14px 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.darkmode .second{
+    border: 3px dashed yellow;
+    color: white;
+}
+img {
+    width: 300px;
+    height: 200px;
+    border: 3px solid black;
+    border-radius: 5px;
+}
+.darkmode img{
+    border: 3px solid rgb(145, 203, 44);
+}
+.spec{
+    display: flex;
+}
+.three{
+    margin-left: 550px;
+    display: inline;
+    background-color: blueviolet;
+    color: white;
+    padding: 14px 16px;
+    border-radius: 15px;
+}
+.darkmode .three{
+    background-color: rgb(0, 255, 0);
+    color: black;
+}
+.uiux{
+    flex: 1;
+    margin-left: 250px;
+}
+.interf{
+    flex: 1;
+    margin-right: 250px;
+}
+.thing{
+    display: flex;
+}
+.front{
+    flex: 1;
+    margin-left: 250px;
+}
+.end{
+    flex: 1;
+    margin-right: 250px;
+}
+.calc{
+    display: flex;
+}
+.desi{
+    flex: 1;
+    margin-left: 250px;
+}
+.refer{
+    flex: 1;
+    margin-right: 250px;
+}
+h2{
+    margin-left: 100px;
+    text-decoration: underline dashed 3px blue;
+    color: blue;
+}
+.darkmode h2{
+    text-decoration: underline dashed 3px yellow;
+    color:yellow;
+}
+.about{
+    margin-bottom: 100px;
+}
+.king{
+    text-align: center;
+    padding: 14px 16px;
+    background-color: blueviolet;
+    display: inline;
+    color: white;
+    margin-left: 550px;
+    border-radius: 15px;
+}
+.darkmode .king{
+    background-color: rgb(0, 255, 0);
+    color: black;
+}
+.out{
+    text-decoration: underline 3px;
+    text-align: center;
+    margin-top: 50px;
+}
+.book{
+    margin-left: 50px;
+}
+.paper{
+    margin-left: 350px;
+}
+.met{
+    margin-left: 650px;
+}
+.book{
+    margin-top: 60px;
+    border-bottom: 3px solid blue;
+}
+.darkmode .book{
+    border-bottom: 3px solid rgb(0, 255, 0);
+}
+.paper{
+    margin-top: 60px;
+    border-bottom: 3px solid blue;
+}
+.darkmode .paper{
+    border-bottom: 3px solid rgb(0, 255, 0);
+}
+.met{
+    margin-top: 60px;
+    border-bottom: 3px solid blue;
+}
+.darkmode .met{
+    border-bottom: 3px solid rgb(0, 255, 0);
+}
+footer{
+    margin-top: 100px;
+    background-color: #0d0d0d;
+    color: wheat;
+    display: flex;
+    height: 200px;
+    padding-top: 50px;
+}
+.type{
+    flex: 1;
+    margin-left: 100px;
+}
+.type1{
+    flex: 1;
+}
+.type2{
+    flex: 1;
+}
+footer p a{
+    color: wheat;
+    text-decoration: none;
+}
+footer p a:hover{
+    color: yellow;
+    text-decoration: underline;
+}
+.darkmode footer{
+    border-top: 1px solid white;
+    color: yellow;
+}
+.darkmode footer p a {
+    color: yellow;
+}
+.darkmode footer p a:hover{
+    color: wheat;
+    text-decoration: underline;
+}
+.sss{
+    display: none;
+}
+.active{
+    display: none;
+}
+
+@media screen and (max-width: 810px){
+    nav{
+     overflow: hidden;
+     background-color: none;
+     position: fixed;
+    } 
+ .sss{
+    visibility: visible;
+    background: fixed;
+    display: block;
+    background-color: blue;
+    position: fixed;
+    height: 5vh;
+    overflow: hidden;
+ }
+    nav ul{
+        display: none;
+    }
+    nav a{
+        color: blue;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+        display: block;
+    }
+
+    .openbtn{
+        background-color: black;
+        display: block;
+        right: 2%;
+        margin-top: 1px;
+        border: none;
+        padding: 5px 15px;
+        border-radius: 5px;
+        color: white;
+        position: absolute;
+        position: fixed;
+        margin-left: 30px;
+    }
+    #chat{
+        display: none;
+    }
+    .darkmode .openbtn{
+        background-color: white;
+        color: black;
+    }
+
+    .openbtn:hover{
+        background-color: white;
+        color: black;
+    }
+    .darkmode .openbtn:hover{
+        background-color: rgb(0, 255, 0);
+        color: black;
+    }
+    #chat1{
+       position: relative;
+       position: fixed;
+       margin-top: 1px;
+       margin-left: 60%;
+       border: none;
+       border-radius: 5px;
+       background-color: black;
+       color: white;
+       padding: 5px 5px;
+       justify-content: center;
+    }
+    .darkmode #chat1{
+       background-color: white;
+       color: black;
+    }
+    #chat1:hover{
+        background-color: white;
+        color: black;
+        border-radius: 5px;
+        margin-top: 1px;
+        margin-left: 60%;
+    }
+    .darkmode #chat1:hover{
+        background-color: rgb(0, 255, 0);
+        color: black;
+    }
+    nav{
+        overflow: hidden;
+        width: 30%;
+        position: fixed;
+        margin: 0;
+        padding: 0;
+        margin-top: 5%;
+        right: 2%;
+        background-color: black;
+        border-radius: 10px;
+    }
+    .darkmode nav{
+        background-color: white;
+    }
+    li{
+        display: block;
+        float: left; 
+        }
+    li a {
+       display: block; 
+       padding: 14px 50px;
+       text-decoration: none;
+       color: blue;
+
+    }
+    .darkmode li a{
+        color: black;
+    }
+    
+    #div1{
+        margin-top: 5%;
+        margin-bottom: 20%;
+    }
+    #div2{
+        margin-bottom: 20%;
+    }
+    #div3{
+        margin-bottom: 20%;
+    }
+    #div4{
+        margin-bottom: 5%;
+    }
+ }
+ @media screen and (min-width: 1px) and (max-width: 800px){
+    #div4 a{
+      padding: 14px 30px;
+
+    }
+ }
+ @media screen and (min-width: 1px) and (max-width: 666px){
+    #div4 a{
+      padding: 10px 26px;
+
+    }
+ }
+ 
+
+ @media screen and (max-width: 1069.9px){
+    nav{
+       margin-left: 3%;
+    } 
+    #chat{
+        margin-top: 16px;
+        margin-left: 15px;
+        border: none;
+        background-color: white;
+        color: blue;
+    }
+    #chat:hover{
+        padding: 14px 10px;
+        background-color: blueviolet;
+        color: white;
+        border-radius: 10px;
+        top:  -200px;  
+    }
+   .first{
+        margin-left: 50px;
+   }
+   .second{
+    margin-right: 50px;
+   }
+   .three{
+    margin-left: 430px;
+   }
+   .uiux{
+    margin-left: 150px;
+   }
+   .interf{
+    margin-right: 150px;
+   }
+   .front{
+    margin-left: 150px;
+   }
+   .end{
+    margin-right: 150px;
+   }
+   .desi{
+    margin-left: 150px;
+   }
+   .refer{
+    margin-right: 150px;
+   }
+   .king{
+    margin-left: 450px;
+   }
+   .out{
+    margin-left: 30px;
+   }
+   .type1{
+    margin-right: 130px;
+   }
+   .type{
+    margin-left: 70px;
+   }
+ }
+ 
+ @media screen and (min-width: 810.1px) and (max-width:1068px){
+    li a{
+        padding: 14px 14px;
+    }
+    nav{
+        margin-left: 50px;
+    }
+    #chat{
+        margin-left: 0;
+    }
+    #reach{
+        margin-right: 170px;
+    }
+    .first{
+        margin-left: 10px;
+    }
+    .second{
+        margin-right: 10px;
+    }
+    .three{
+        margin-left: 300px;
+    }
+    h2{
+        margin-left: 50px;
+    }
+    .uiux{
+        margin-left: 30px;
+    }
+    .interf{
+        margin-right: 30px;
+    }
+    .front{
+        margin-left: 30px;
+    }
+    .end{
+        margin-right: 30px;
+    }
+    .desi{
+        margin-left: 30px;
+    }
+    .refer{
+        margin-right: 30px;
+    }
+    .king{
+        margin-left: 350px;
+    }
+    .out{
+        margin-left: 15px;
+    }
+    .paper{
+       margin-left: 250px;
+    }
+    .met{
+       margin-left: 350px;
+    }
+    .type1{
+        margin-right: 90px;
+    }
+}
+
+@media screen and (min-width: 300px) and (max-width: 380px){
+    #chat1{
+        margin-left: 35%;
+    }
+   
+}
+
+@media screen and (min-width: 381px) and (max-width: 478px){
+    #chat1{
+        margin-left: 50%;
+    }
+    
+}
+
+@media screen and (min-width: 1px) and (max-width: 299.9px){
+    #chat1{
+        margin-left: 20%;
+    }
+   
+}
+
+@media screen and (min-width: 1px) and (max-width: 256px){
+    #chat1{
+        margin-left: 30%;
+    }
+   
+}
+
+@media screen and (min-width: 600px) and (max-width: 698px){
+    nav{
+        left: 3px;
+        margin-top: 40px;
+    }
+    .openbtn{
+        right: 87%;
+    }
+    .openbtn:hover{
+        border: 2px solid black;
+    }
+    
+}
+
+@media screen and (min-width: 1px) and (max-width: 663px){
+    nav{
+        left: 3px;
+        margin-top: 40px;
+    }
+    .openbtn{
+        right: 87%;
+    }
+    .openbtn:hover{
+        border: 2px solid black;
+    }
+   
+}
+
+
+@media screen and  (min-width:481px) and (max-width: 540px) {
+    
+
+nav{
+    left: 3px;
+    margin-top: 40px;
+}
+.openbtn{
+    right: 87%;
+}
+.openbtn:hover{
+    border: 2px solid black;
+}
+
+}
+
+@media screen and (min-width:1px) and (max-width: 480px) {
+    
+
+nav{
+    left: 3px;
+    margin-top: 40px;
+   width: 90%;
+
+}
+.openbtn{
+    right: 70%;
+}
+.openbtn:hover{
+    border: 2px solid black;
+}
+
+}
